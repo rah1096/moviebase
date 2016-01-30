@@ -10,7 +10,7 @@ var moviesModel = function() {
         director: String,
         release_date: Date,
         trailer: String,
-        cover: String
+        cover: String,
     });
 
     return mongoose.model('Movies', movieSchema);
