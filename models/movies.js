@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 var moviesModel = function() {
     var movieSchema = mongoose.Schema({
         title: String,
-        genere: String,
+        genre: String,
         plot: String,
         director: String,
         release_date: Date,
