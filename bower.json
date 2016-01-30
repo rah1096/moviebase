@@ -1,0 +1,18 @@
+{
+  "name": "moviebase",
+  "description": "Current movie info",
+  "main": "index.js",
+  "author": "Tim Chen",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ]
+}
