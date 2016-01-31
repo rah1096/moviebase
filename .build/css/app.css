@@ -36,3 +36,7 @@ header {
   border-bottom: 1px #ccc solid;
   color: #ffffff !important;
 }
+/* line 36, css/app */
+[class*="column"] + [class*="column"]:last-child {
+  float: left;
+}
